@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">ListViewPictures</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="titles">
+        <item>Pizza</item>
+        <item>Burger</item>
+        <item>Hot Dog</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="clubs">
+        <item>CSA </item>
+        <item>MSA </item>
+        <item>GSA </item>
+        <item>PSA </item>
+    </string-array>
+
+    <string-array name="time">
+        <item>4:00 PM </item>
+        <item>5:00 PM </item>
+        <item>5:20 PM </item>
+        <item>5:30 PM </item>
+    </string-array>
+
+    <string-array name="room">
+        <item>UC 442 </item>
+        <item>MCKN 323 </item>
+        <item>THORN 1200 </item>
+        <item>UC 103 </item>
+    </string-array>
+</resources>

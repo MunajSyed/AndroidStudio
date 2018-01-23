@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/input"
+        android:layout_marginTop="42dp"
+        android:width="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/btnAdd"
+        android:layout_below="@+id/input"
+        android:layout_alignRight="@+id/input"
+        android:layout_alignEnd="@+id/input"
+        android:layout_marginRight="181dp"
+        android:layout_marginEnd="181dp"
+        android:layout_marginTop="89dp"
+        android:onClick="btnAddClicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:id="@+id/btnDelete"
+        android:layout_alignTop="@+id/btnAdd"
+        android:layout_alignRight="@+id/input"
+        android:layout_alignEnd="@+id/input"
+        android:onClick="btnDeleteClicked" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/text"
+        android:layout_below="@+id/btnAdd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp" />
+
+</RelativeLayout>
